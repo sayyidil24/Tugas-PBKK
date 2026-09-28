@@ -68,16 +68,13 @@ Simpan gambar di folder `docs/screenshots/` dengan nama berikut.
 ### Beranda
 <img width="1916" height="914" alt="image" src="https://github.com/user-attachments/assets/589bcfbc-25b0-4427-a688-212075e49cb8" />
 
-### Beranda dengan alert (`/beranda?user=Andi`)
-![Beranda dengan alert](docs/screenshots/beranda-user.png)
-
 ### Profil Mahasiswa
 <img width="1919" height="913" alt="image" src="https://github.com/user-attachments/assets/5e341a66-da60-4ad2-b067-8149d323facf" />
 
 ### Ide Riset
 <img width="1898" height="913" alt="image" src="https://github.com/user-attachments/assets/d5c6d374-7968-4ebe-b3d2-813f96554ac5" />
 
-### Mode Gelap (`/ide-agent?mode=dark`)
+### Mode Gelap
 <img width="1919" height="913" alt="image" src="https://github.com/user-attachments/assets/5a79da19-84ac-4218-bcb8-5bb2b3cf5076" />
 
 ### Validasi Formulir
