@@ -6,10 +6,10 @@ Laporan Tugas Mandiri Pertemuan 4, mata kuliah Pemrograman Berbasis Kerangka Ker
 
 | | |
 |---|---|
-| Nama | [ISI NAMA LENGKAP] |
-| NRP | [ISI NRP] |
-| Kelas | [ISI KELAS] |
-| Dosen Pengampu | [ISI NAMA DOSEN] |
+| Nama | Muhammad Sayyidil Anam |
+| NRP | 5025241267 |
+| Kelas | B |
+| Dosen Pengampu | Pak Dwi |
 
 ## Deskripsi
 
