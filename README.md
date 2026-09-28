@@ -66,58 +66,20 @@ tests/Feature/PageTest.php                  Pengujian otomatis
 Simpan gambar di folder `docs/screenshots/` dengan nama berikut.
 
 ### Beranda
-![Beranda](docs/screenshots/beranda.png)
+<img width="1916" height="914" alt="image" src="https://github.com/user-attachments/assets/589bcfbc-25b0-4427-a688-212075e49cb8" />
 
 ### Beranda dengan alert (`/beranda?user=Andi`)
 ![Beranda dengan alert](docs/screenshots/beranda-user.png)
 
 ### Profil Mahasiswa
-![Profil](docs/screenshots/profil.png)
+<img width="1919" height="913" alt="image" src="https://github.com/user-attachments/assets/5e341a66-da60-4ad2-b067-8149d323facf" />
 
 ### Ide Riset
-![Ide Riset](docs/screenshots/ide-agent.png)
+<img width="1898" height="913" alt="image" src="https://github.com/user-attachments/assets/d5c6d374-7968-4ebe-b3d2-813f96554ac5" />
 
 ### Mode Gelap (`/ide-agent?mode=dark`)
-![Mode gelap](docs/screenshots/ide-agent-dark.png)
+<img width="1919" height="913" alt="image" src="https://github.com/user-attachments/assets/5a79da19-84ac-4218-bcb8-5bb2b3cf5076" />
 
 ### Validasi Formulir
-![Validasi formulir](docs/screenshots/form-error.png)
 
-## Cara Menjalankan
 
-Prasyarat: PHP, Composer, Node.js dengan npm, dan Git.
-
-```bash
-git clone https://github.com/[USERNAME]/[NAMA-REPO].git
-cd [NAMA-REPO]
-
-composer install
-npm install
-
-cp .env.example .env        # di Windows PowerShell: copy .env.example .env
-php artisan key:generate
-```
-
-Ubah `SESSION_DRIVER=file` di `.env` agar formulir tidak membutuhkan tabel database.
-
-Jalankan di dua terminal terpisah:
-
-```bash
-php artisan serve
-npm run dev
-```
-
-Lalu buka http://127.0.0.1:8000.
-
-## Pengujian
-
-```bash
-php artisan test --filter=PageTest
-```
-
-Pengujian mencakup akses ketiga halaman, alert dari parameter `user`, perlindungan terhadap injeksi HTML, mode gelap, serta validasi dan pengiriman formulir.
-
-## Catatan
-
-- Ide yang dikirim lewat formulir belum disimpan ke database. Penyimpanan data dibahas pada pertemuan berikutnya.
-- Folder `vendor/` dan file `.env` tidak diunggah ke repositori (dikecualikan oleh `.gitignore`).
